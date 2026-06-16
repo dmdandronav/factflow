@@ -1,1 +1,7 @@
-/* FactFlow styles — see commit 3 */
+.factflow-btn{position:absolute;z-index:999999;background:#1a1a2e;color:#fff;border:none;border-radius:6px;padding:4px 10px;font-size:12px;font-family:system-ui,sans-serif;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+.factflow-btn:hover{background:#16213e}
+.factflow-bubble{position:absolute;z-index:999999;background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;max-width:340px;font-family:system-ui,sans-serif;font-size:13px;box-shadow:0 4px 20px rgba(0,0,0,.15);line-height:1.5}
+.factflow-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.factflow-close{background:none;border:none;cursor:pointer;color:#999;font-size:14px}
+.factflow-claim{color:#6b7280;font-style:italic;margin:4px 0 8px}
+.factflow-response{color:#111827;margin:0}
